@@ -65,7 +65,7 @@ h1 {
 }
 
 #text {
-    margin: 0px;
+    padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 20px;
     border: 1px solid #DFDFDF;
@@ -76,6 +76,42 @@ h1 {
 #sous-texte {
     font-size: 15px;
     line-height: 20px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    display: flex;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.navbar-item {
+    padding-left: 15px;
+}
+
+@media (min-width: 700px) {
+    .navbar {
+        background-color: #f8f9fa;
+        color: #2c3e50;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        line-height: 30px;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    
+    .navbar-item {
+        padding-left: 15px;
+    }
 }
