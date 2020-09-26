@@ -2,3 +2,17 @@ h1 {
     font-size: 17px;
     color: #2c3e50;
 }
+
+.btn {
+    background-color: #2ecc71;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #27ae60;
+}
