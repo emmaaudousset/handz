@@ -33,7 +33,7 @@ h1, h2, h3, p {
 
 #secondaire {
     background-color: #74B9FF;
-    background-size: 110vw px;
+    background-size: 110vw;
     display:flex;
     justify-content: space-around;
     align-items: center;
